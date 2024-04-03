@@ -1,0 +1,57 @@
+header{
+    
+}
+
+ul { 
+	list-style-type: none; /* tar bort prickarna från min lista */
+	margin: 0;
+	padding: 0; /* Tar bort padding */
+	font-family: sans-serif;
+    border-radius: 8px;
+	background-color: #2196f3;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    
+}
+
+li a { 
+	display: block; 
+	color: white; /* Färg på text */
+	padding: 14px 16px;
+	text-decoration: none; /* Tar bort understräck på länkar */
+	text-align: center; /* sätter text i mitten */
+    font-family: sans-serif;
+    
+}
+
+.wrapper {
+	
+	display: grid; /*visar min grid*/
+	height: 100%; /*modiferar höjd*/
+	width: 100%; /*modiferar bredd*/
+	grid-template-rows: 50px auto 50px; /*storleken på mina olika områden i min grid*/
+	margin: 0 auto; /*ändrar margin*/
+	grid-template-areas: /*skapar mina grid områden*/
+		"header"
+		"main"
+		"footer";
+}
+
+nav a:hover, a:focus {
+	transition: 0.7s;
+    background-color: #1b67a5;
+    border-radius: 8px;
+}
+
+.hem >  section > h2 {
+   text-align: center;
+   margin-top: 35px;
+   margin-bottom: 10px;
+   font-family: sans-serif;
+   font-size: 6rem;
+   background: linear-gradient(to right, #ef5350, #3da7c2, #7e57c2, #2196f3, #8326da, #cf1798, #eeff41, #f9a825, #ff5722 );
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
