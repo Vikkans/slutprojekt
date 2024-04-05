@@ -1,13 +1,17 @@
 header{
-    
+    grid-area: header;
 }
 
 body{
+
 	margin: 0; /* Ändrar margin */
-	height: 98vh; /* Sätter en height */
-	overflow-x: hidden;
-	
+	height: 100vh; /* Sätter en height */
 }
+
+h1{ 
+	display: none;
+}
+
 
 ul { 
 	list-style-type: none; /* tar bort prickarna från min lista */
@@ -21,19 +25,10 @@ ul {
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-li a { 
-	display: block; 
-	color: white; /* Färg på text */
-	padding: 14px 16px;
-	text-decoration: none; /* Tar bort understräck på länkar */
-	text-align: center; /* sätter text i mitten */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    
-}
+
 
 
 .wrapper {
-	
 	display: grid; /*visar min grid*/
 	height: 100%; /*modiferar höjd*/
 	width: 100%; /*modiferar bredd*/
@@ -79,7 +74,9 @@ video{
 }
 
 footer{
-	
+	grid-area: footer;
+	background-color: grey;
+	text-align: center;
 }
 
 .Band{
@@ -99,7 +96,33 @@ main > section > a > img{
 }
 
 main > section > a > img:hover{
-	transition: 0.5s;
+	transition: 0.3s;
 	border-radius: 10px;
 	height: 18em;
+	border: 4px solid #1b67a5;
 }
+
+li:first-child {
+	font-family: "Rubik Scribble", system-ui;
+    font-weight: 700;
+    font-style: normal;
+	
+}
+
+li a { 
+	display: block; 
+	color: white; /* Färg på text */
+	padding: 14px 16px;
+	text-decoration: none; /* Tar bort understräck på länkar */
+	text-align: center; /* sätter text i mitten */
+	
+  
+}
+
+.Musik{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	width: 500px;
+}
+
