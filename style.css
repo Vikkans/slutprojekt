@@ -23,6 +23,7 @@ ul {
 	height: 100%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	font-weight: bold;
 }
 
 
@@ -65,7 +66,7 @@ nav a:hover, a:focus{
 }
 
 video{
-	width: 820px;
+	width: 720px;
 	height: 340px;
 	margin-left: auto;
     margin-right: auto;
@@ -95,13 +96,14 @@ main > section > a > img{
 	transition: 0.5s;
 	border-radius: 10px;
 	height: 16em;
+	border: black solid 5px;
 }
 
 main > section > a > img:hover{
 	transition: 0.3s;
 	border-radius: 10px;
 	height: 18em;
-	border: 4px solid #1b67a5;
+	cursor: default;
 }
 
 
@@ -125,8 +127,13 @@ li a {
 	
 }
 
+#låtar main {
+	display: grid;
+	place-content: center;
+}
+
 table {
-	
+	height: 700px;
 }
 
 table img{
@@ -139,3 +146,16 @@ td{
 	width: auto;
 }
 
+.Band p{
+	font-size: 15px;
+	margin-top: 0;
+	font-weight: normal;
+}
+
+.Band h2{
+	margin-bottom: 0;
+}
+
+.hem{
+	background-image: ;
+}
