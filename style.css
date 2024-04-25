@@ -27,7 +27,9 @@ ul {
 	
 }
 
-
+nav{
+	color: white;
+}
 
 
 .wrapper {
@@ -177,5 +179,77 @@ td{
 .Historia > section{
 	background-color: grey;
     border-radius: 20px;
+	
+}
+
+
+fieldset{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+   
+}
+
+fieldset > fieldset{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3px;
+}
+
+fieldset > fieldset > legend{
+    text-align: left;
+}
+
+legend{
+    font-size: 100%;
+    text-align: center;
+}
+
+label{
+    font-size: 100%;
+}
+
+fieldset > fieldset > label{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+input, textarea{
+    margin: 0;
+    border-radius: 5px;
+}
+
+input:required:invalid{
+    border: 2px solid rgb(255, 0, 0);
+}
+
+input:required:valid{
+    border: 2px solid rgb(10, 236, 10);
+}
+
+
+a:link{
+    color:inherit
+}
+
+a:visited{
+    color:inherit
+}
+
+a:focus{
+    color:inherit
+}
+
+a:hover{
+    color:inherit
+}
+
+a:active{
+    color:inherit
+}
+
+form{
+	padding: 50px;
+	padding-top: 5px;
 	
 }

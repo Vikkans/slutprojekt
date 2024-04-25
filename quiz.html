@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href = "style.css" rel = "stylesheet">
+        <title>Quiz</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <nav>
+					<ul class="nav-links">
+                        <li><a  href="index.html">Coldplay</a></li>
+                        <li class="active"><a  href="historia.html">Historia</a></li>
+                        <li><a  href="bandmedlemmar.html">Bandmedlammar</a></li>
+                        <li><a  href="låtar.html">Låtar</a></li>            
+                        <li><a  href="Reptiler.html">Quiz</a></li>  
+					</ul>
+				</nav>
+            <h1>Quiz</h1>
+        </header>
+        <main>
+            <form action="thanks.html" method="post">
+                <fieldset>
+                    <legend>Quiz om Coldplay</legend>
+                    <fieldset>
+                        <legend>Hur många bandmedlemmar finns i Coldplay</legend>
+                        <label for="3medlemmar">3 </label>
+                        <label for="4medlemmar">4 </label>
+                        <label for="5medlemmar">5 </label>
+                        <label for="6medlemmar">6 </label>
+                        <input type="radio" value="3" name="fråga1" id="3medlemmar">
+                        <input type="radio" value="4" name="fråga1" id="4medlemmar">
+                        <input type="radio" value="5" name="fråga1" id="5medlemmar">
+                        <input type="radio" value="6" name="fråga1" id="6medlemmar">
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Vilken är deras mest lyssnade på låt</legend>
+                        <label for="driver">Driver</label>
+                        <label for="putter">Putter</label>
+                        <label for="wedge">Wedge</label>
+                        <label for="hybrid">Hybrid</label>
+                        <input type="radio" value="driver" name="fråga2" id="driver">
+                        <input type="radio" value="putter" name="fråga2" id="putter">
+                        <input type="radio" value="wedge" name="fråga2" id="wedge">
+                        <input type="radio" value="hybrid" name="fråga2" id="hybrid">
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Vilka platser är delar av en golfbana?</legend>
+                        <label for="green">Green</label>
+                        <label for="teknikums-parkering">Teknikums parkering</label>
+                        <label for="bunker">Bunker</label>
+                        <label for="ica-norrhult">Ica i Norrhult</label>
+                        <input type="checkbox" value="green" name="fråga3" id="green">
+                        <input type="checkbox" value="teknikums-parkering" name="fråga3" id="teknikums-parkering">
+                        <input type="checkbox" value="bunker" name="fråga3" id="bunker">
+                        <input type="checkbox" value="ica-norrhult" name="fråga3" id="ica-norrhult">
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Vilka av dessa termer är golfslag?</legend>
+                        <label for="blåmes">Blåmes</label>
+                        <label for="eagle">Eagle</label>
+                        <label for="albatros">Albatros</label>
+                        <label for="boogey">Boogey</label>
+                        <input type="checkbox" value="blåmes" name="fråga4" id="blåmes">
+                        <input type="checkbox" value="eagle" name="fråga4" id="eagle">
+                        <input type="checkbox" value="albatros" name="fråga4" id="albatros">
+                        <input type="checkbox" value="boogey" name="fråga4" id="boogey">
+                    </fieldset>
+                    <br>
+                    <label for="klubblängst">Vilken klubba slår man (oftast) längst med?</label>
+                    <br>
+                    <input type="text" id="klubblängst" name="klubblängst">
+                    <br> <br>
+                    <label for="valspelare">Vilken av dessa spelare kom tvåa i Masters 2024?</label>
+                    <br>
+                    <select id="valspelare" name="valspelare">
+                        <option value="woods">Tiger Woods</option>
+                        <option value="åberg" selected>Ludvig Åberg</option>
+                        <option value="fleetwood">Toomy Fleetwood</option>
+                        <option value="tosti">Alejandro Tosti</option>
+                    </select>
+                    <br> <br>
+                    <label for="recention">Vad tyckte du om quizen?</label>
+                    <br>
+                    <textarea id="recention" name="recention"></textarea>
+                    <fieldset class="spalt5">
+                        <legend>Vad tyckte du om denna quiz?</legend>
+                        <label for="rating5">5</label>
+                        <label for="rating4">4</label>
+                        <label for="rating3">3</label>
+                        <label for="rating2">2</label>
+                        <label for="rating1">1</label>
+                        <input type="radio" value="5" name="rating" id="rating5" checked>
+                        <input type="radio" value="4" name="rating" id="rating4">
+                        <input type="radio" value="3" name="rating" id="rating3">
+                        <input type="radio" value="2" name="rating" id="rating2">
+                        <input type="radio" value="1" name="rating" id="rating1">
+                    </fieldset>
+                </fieldset>
+                <fieldset>
+                    <legend>Registrering</legend>
+                    <label for="password">Skriv in lösenord</label>
+                    <br>
+                    <input type="password" name="password" id="password" required>
+                    <br> <br>
+                    <label for="email">Skriv in din email</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="dmawjdaw@gmail.com" required>
+                    <br> <br>
+                    <label for="number">Skriv in ditt telefonnummer</label>
+                    <br>
+                    <input type="tel" name="number" id="number" pattern="[0-9]{3}-[0-9]{7}" placeholder="123-4567890" required>
+                    <br> <br>
+                    <button type="submit">Svara</button>
+                </fieldset>
+            </form>
+        </main>
+        <footer><p>VIKTOR JAKOBSEN TE22A</p></footer>
+       
+    </body>
+</html>
