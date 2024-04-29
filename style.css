@@ -146,7 +146,6 @@ td{
 }
 
 .Band{
-	padding-top: 8%;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	display: grid;
 	text-align: center;
@@ -169,16 +168,18 @@ td{
 	grid-template-columns: 1fr 1fr;
 	display: grid;
 	grid-gap: 20px;
+	padding-left: 50px;
+	padding-bottom: 50px;
 }
 
-.Historia > section > img {
-	height: 300px;
 
-}
 
 .Historia > section{
 	background-color: grey;
     border-radius: 20px;
+	width: 500px;
+	padding-left: 20px;
+	
 	
 }
 
@@ -252,4 +253,16 @@ form{
 	padding: 50px;
 	padding-top: 5px;
 	
+}
+
+table {
+    border-collapse: collapse;/*Gör så att det inte finns några mellanrum mellan bordersna*/
+    width: 80vw;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+th, td {
+    border: 1px solid white; /*skapar en border runt tabell datan och tabell header*/
+    text-align: left;
+    padding: 8px;
 }
