@@ -6,7 +6,7 @@
         <link href = "style.css" rel = "stylesheet">
         <title>Quiz</title>
     </head>
-    <body>
+    <body id="quiz">
         <header>
             <nav>
                 <nav>
@@ -38,64 +38,64 @@
                     <br>
                     <fieldset>
                         <legend>Vilken är deras mest lyssnade på låt</legend>
-                        <label for="driver">Driver</label>
-                        <label for="putter">Putter</label>
-                        <label for="wedge">Wedge</label>
-                        <label for="hybrid">Hybrid</label>
-                        <input type="radio" value="driver" name="fråga2" id="driver">
-                        <input type="radio" value="putter" name="fråga2" id="putter">
-                        <input type="radio" value="wedge" name="fråga2" id="wedge">
-                        <input type="radio" value="hybrid" name="fråga2" id="hybrid">
+                        <label for="vivalavida">Viva La vida</label>
+                        <label for="sparks">Sparks</label>
+                        <label for="somethingjustlikethis">Something Just Like This</label>
+                        <label for="yellow">Yellow</label>
+                        <input type="radio" value="vivalavida" name="fråga2" id="vivalavida">
+                        <input type="radio" value="sparks" name="fråga2" id="sparks">
+                        <input type="radio" value="somethingjustlikethis" name="fråga2" id="somethingjustlikethis">
+                        <input type="radio" value="yellow" name="fråga2" id="yellow">
                     </fieldset>
                     <br>
                     <fieldset>
-                        <legend>Vilka platser är delar av en golfbana?</legend>
-                        <label for="green">Green</label>
-                        <label for="teknikums-parkering">Teknikums parkering</label>
-                        <label for="bunker">Bunker</label>
-                        <label for="ica-norrhult">Ica i Norrhult</label>
+                        <legend>Vilka platser ska coldplay på tour?</legend>
+                        <label for="Olympic-stadium">Olympic Stadium</label>
+                        <label for="teknikum">Teknikum</label>
+                        <label for="crokepark">Crokepark</label>
+                        <label for="ica">Ica</label>
                         <input type="checkbox" value="green" name="fråga3" id="green">
-                        <input type="checkbox" value="teknikums-parkering" name="fråga3" id="teknikums-parkering">
-                        <input type="checkbox" value="bunker" name="fråga3" id="bunker">
-                        <input type="checkbox" value="ica-norrhult" name="fråga3" id="ica-norrhult">
+                        <input type="checkbox" value="teknikum" name="fråga3" id="teknikum">
+                        <input type="checkbox" value="crokepark" name="fråga3" id="bunker">
+                        <input type="checkbox" value="ica" name="fråga3" id="ica">
                     </fieldset>
                     <br>
                     <fieldset>
-                        <legend>Vilka av dessa termer är golfslag?</legend>
-                        <label for="blåmes">Blåmes</label>
-                        <label for="eagle">Eagle</label>
-                        <label for="albatros">Albatros</label>
-                        <label for="boogey">Boogey</label>
+                        <legend>Vilka av dessa namn är Coldplay låtar?</legend>
+                        <label for="Yellow">Yellow</label>
+                        <label for="Down worry bout a thing">Down worry bout a thing</label>
+                        <label for="the duck song">The Duck Song</label>
+                        <label for="Sparks">Sparks</label>
                         <input type="checkbox" value="blåmes" name="fråga4" id="blåmes">
                         <input type="checkbox" value="eagle" name="fråga4" id="eagle">
                         <input type="checkbox" value="albatros" name="fråga4" id="albatros">
                         <input type="checkbox" value="boogey" name="fråga4" id="boogey">
                     </fieldset>
                     <br>
-                    <label for="klubblängst">Vilken klubba slår man (oftast) längst med?</label>
+                    <label for="klubblängst">Vilken bandmedlem är trummis?</label>
                     <br>
                     <input type="text" id="klubblängst" name="klubblängst">
                     <br> <br>
-                    <label for="valspelare">Vilken av dessa spelare kom tvåa i Masters 2024?</label>
+                    <label for="valspelare">När skapades Coldplay?</label>
                     <br>
                     <select id="valspelare" name="valspelare">
-                        <option value="woods">Tiger Woods</option>
-                        <option value="åberg" selected>Ludvig Åberg</option>
-                        <option value="fleetwood">Toomy Fleetwood</option>
-                        <option value="tosti">Alejandro Tosti</option>
+                        <option value="97">1997</option>
+                        <option value="02" selected>2002</option>
+                        <option value="94">1994</option>
+                        <option value="06">2006</option>
                     </select>
                     <br> <br>
                     <label for="recention">Vad tyckte du om quizen?</label>
                     <br>
                     <textarea id="recention" name="recention"></textarea>
-                    <fieldset class="spalt5">
+                    <fieldset class="quiz">
                         <legend>Vad tyckte du om denna quiz?</legend>
                         <label for="rating5">5</label>
                         <label for="rating4">4</label>
                         <label for="rating3">3</label>
                         <label for="rating2">2</label>
                         <label for="rating1">1</label>
-                        <input type="radio" value="5" name="rating" id="rating5" checked>
+                        <input type="radio" value="5" name="rating" id="rating5" >
                         <input type="radio" value="4" name="rating" id="rating4">
                         <input type="radio" value="3" name="rating" id="rating3">
                         <input type="radio" value="2" name="rating" id="rating2">
@@ -103,7 +103,7 @@
                     </fieldset>
                 </fieldset>
                 <fieldset>
-                    <legend>Registrering</legend>
+                    <legend>Registrering </legend>
                     <label for="password">Skriv in lösenord</label>
                     <br>
                     <input type="password" name="password" id="password" required>
@@ -121,6 +121,5 @@
             </form>
         </main>
         <footer><p>VIKTOR JAKOBSEN TE22A</p></footer>
-       
     </body>
 </html>
