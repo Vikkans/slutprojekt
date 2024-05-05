@@ -186,6 +186,11 @@ td{
 
 .Band h2{
 	margin-bottom: 0;
+	
+}
+
+.Band section{
+	padding-top: 50px;
 }
 
 .Historia{
@@ -261,7 +266,7 @@ table {
     border-collapse: collapse;/*Gör så att det inte finns några mellanrum mellan bordersna*/
     width: 80vw;
     margin: 0 auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+    border: black solid; 
 	padding-bottom: 50px;
 }
 th, td {
