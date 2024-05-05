@@ -4,12 +4,12 @@ header{
 
 body{
 
-	margin: 0; /* Ändrar margin */
+	margin: 0; /* Ändrar margin avänds för att göra så sidan går till kanterna*/
 	height: 100vh; /* Sätter en height */
 }
 
 h1{ 
-	display: none;
+	display: none; /*gär så den inte syns*/
 }
 
 .quiz{ 
@@ -36,11 +36,11 @@ ul {
 	padding: 0; /* Tar bort padding */
 	font-family: sans-serif;
     border-radius: 8px;
-	background-color: #2196f3;
-	height: 100%;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	font-weight: bold;
+	background-color: #2196f3; /*Lägger till bakgrundsfärg*/
+	height: 100%; /*Bestämmer höjd på listan*/
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr; /*Skapar grid systemet i min lista*/
+	font-weight: bold; /*Gör texten tjock*/
 
 	
 }
@@ -50,7 +50,7 @@ nav{
 }
 
 
-.wrapper {
+.wrapper {  /*En klassselektor för min div som täcker hela sidan*/
 	display: grid; /*visar min grid*/
 	height: 100%; /*modiferar höjd*/
 	width: 100%; /*modiferar bredd*/
@@ -63,21 +63,19 @@ nav{
 }
 
 nav a:hover, a:focus{
-	transition: 0.7s;
+	transition: 0.7s; /*Gär så den långsamt går tillbaka till detta*/
     background-color: #1b67a5;
-    border-radius: 14px;
+    border-radius: 14px; /*rundar kanterna */
 	
 }
 
 .hem >  section > h2 {
-   text-align: center;	
+   text-align: center;	/*Sätter texten i mitten*/
    margin-top: 35px;
    margin-bottom: 10px;
    font-family: sans-serif;
-   font-size: 8rem;
-   background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+   font-size: 8em;
+   color: black;
 }
 
 #historia main {
@@ -128,19 +126,6 @@ footer{
 }
 
 
-main > section > a > img{
-	transition: 0.5s;
-	border-radius: 10px;
-	height: 16em;
-	border: black solid 5px;
-}
-
-main > section > a > img:hover{
-	transition: 0.3s;
-	border-radius: 10px;
-	height: 18em;
-	cursor: default;
-}
 
 
 
@@ -157,7 +142,6 @@ li a {
 .Musik{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-
 	width: auto;
 	height: auto;
 	
@@ -192,9 +176,9 @@ td{
 }
 
 .Band > p{
-	font-size: 15em;
+	font-size: 15em; /*storlek på min text*/
 	margin-top: 0;
-	font-weight: normal;
+	
 }
 
 .Band h2{
@@ -239,10 +223,10 @@ fieldset > fieldset{
 }
 
 fieldset > fieldset > legend{
-    text-align: left;
+    text-align: left; /*Gör att texten går åt vänster*/
 }
 
-legend{
+legend{ /*Gör att rubrikerna lägger sig i mitten*/
     font-size: 100%;
     text-align: center;
 }
@@ -261,11 +245,11 @@ input, textarea{
     border-radius: 5px;
 }
 
-input:required:invalid{
+input:required:invalid{  /*Skapar en röd border runt required där kraven inte har uppfyllts*/
     border: 2px solid #b11226;
 }
 
-input:required:valid{
+input:required:valid{ /*Skapar en grön border runt required där krvaen har uppfyllts*/
     border: 2px solid rgb(10, 236, 10);
 }
 
@@ -300,7 +284,7 @@ th, td {
 
 
 a:link{
-	color:inherit
+	color:inherit /*Gör att färgen är den samma som tidigare*/
 }
 
 a:visited{

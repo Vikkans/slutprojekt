@@ -1,42 +1,40 @@
 <!DOCTYPE html> <!--Väljer senaste html version-->
 <html lang="sv"> <!--skapar dokumentet-->
-<head> <!--teknisk del som inte syns på hemsidan som länkar-->
+ <head> <!--teknisk del som inte syns på hemsidan som länkar-->
     <meta charset="UTF-8"> <!--väljer teckenkodning-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Gör det möjligt för sidan att läsa storleken på användarens skärm-->
-    <link href="style.css" rel="stylesheet">> <!--Länkar extern css-->
+    <link href="style.css" rel="stylesheet"> <!--Länkar extern css-->
     <title>COLDPLAY</title> <!--ändrar titel för sidan i tabmenyn-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap" rel="stylesheet">
-</head>
+ </head> <!--Avslutar head-->
 <body> <!--Delarna som syns på hemsidan-->
-    <div class="wrapper"> 
+    <div class="wrapper">  <!--Gör att du kan bestämma mer om storlek och liknande på din sida-->
       <header> <!--toppen av hemsidan-->
-        
-        <nav> <!--skapar en nav/navigation-->
-            <ul class="nav-links"> <!--oordnadlista alltså inga nummer-->
+  
+        <nav> <!--skapar en nav/navigation meny -->
+            <ul class="nav-links"> <!--skapar en oordnadlista alltså inga nummer-->
                 <li class="active"><a  href="index.html">Coldplay</a></li><!--lägger in ett item i listan-->
                 <li><a  href="historia.html">Historia</a></li>
                 <li><a  href="bandmedlemmar.html">Bandmedlammar</a></li>        
-            </ul>
-        </nav>
+            </ul> <!--Avslutar listan-->
+        </nav>  <!--Avslutar menyn-->
 
-       
-    
-        <h1>COLDPLAY</h1>
-      </header>
+        <h1></h1> <!--En rubrik med klassen centerh1 för att jag vill ha den centrerad-->
+      </header> <!--Avslutar delen högst upp-->
       <main class="hem"> <!--huvuddelen av sidan och ger en klass av hem så jag kan skapa en annorlunda grid-->
         <section> <!--delar upp flera attributer in i en sektion-->
           <h2>COLDPLAY</h2> <!-- Mindre typ av rubrik -->
          </section>
          <section>
            <video autoplay muted loop>
-            <source src="Vids/DDAWD.mp4" video>
+            <source src="Vids/DDAWD.mp4" video/mp4> <!--en video-->
           </video>
          </section>
          
       </main>
-      <footer><p>VIKTOR JAKOBSEN TE22A</p></footer>
+      <footer><p>VIKTOR JAKOBSEN TE22A</p></footer> <!--Skapar delen längst ner och avslutar den--> 
     </div>
 </body>
 </html> 
