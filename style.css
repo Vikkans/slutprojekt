@@ -85,13 +85,18 @@ nav a:hover, a:focus{
 	align-items: center;
 }
 
-#historia section {
-	width: auto;
-	height: min-content;
+#historia article:nth-child(1) {
+	width: 300px;
 	padding-right: 50px;
+	background-color: grey;
+	border-radius: 5%;
 }
 
-#historia section p {
+#historia figure img{
+	height: 700px;
+}
+
+#historia article p {
 	line-height: 1.5;
 }
 
@@ -187,7 +192,7 @@ td{
 }
 
 .Band > p{
-	font-size: 15px;
+	font-size: 15em;
 	margin-top: 0;
 	font-weight: normal;
 }
@@ -257,12 +262,13 @@ input, textarea{
 }
 
 input:required:invalid{
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid #b11226;
 }
 
 input:required:valid{
     border: 2px solid rgb(10, 236, 10);
 }
+
 
 form{
 	padding: 50px;
