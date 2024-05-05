@@ -22,6 +22,14 @@ h1{
 }
 
 
+nav:last-of-type > ul{
+	grid-template-columns: 1fr 1fr;
+}
+
+nav:first-of-type > ul{
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
 ul { 
 	list-style-type: none; /* tar bort prickarna från min lista */
 	margin: 0;
@@ -31,7 +39,7 @@ ul {
 	background-color: #2196f3;
 	height: 100%;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	font-weight: bold;
 
 	
@@ -46,7 +54,7 @@ nav{
 	display: grid; /*visar min grid*/
 	height: 100%; /*modiferar höjd*/
 	width: 100%; /*modiferar bredd*/
-	grid-template-rows: 60px auto 60px; /*storleken på mina olika områden i min grid*/
+	grid-template-rows: 100px auto 60px; /*storleken på mina olika områden i min grid*/
 	margin: 0 auto; /*ändrar margin*/
 	grid-template-areas: /*skapar mina grid områden*/
 		"header"
