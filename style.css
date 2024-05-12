@@ -14,7 +14,7 @@ h1{
 
 .quiz{ 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /*Gör att det blir en 4spalts meny*/
 }
 
 #quiz {
@@ -23,11 +23,11 @@ h1{
 
 
 nav:last-of-type > ul{
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;  /*Gör att det blir en 2spalts meny*/
 }
 
 nav:first-of-type > ul{
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;  /*Gör att det blir en 3spalts meny*/
 }
 
 ul { 
@@ -75,7 +75,7 @@ nav a:hover, a:focus{
    margin-bottom: 10px;
    font-family: sans-serif;
    font-size: 8em;
-   color: black;
+   color: black; /*Ändrar färg på text*/
 }
 
 #historia main {
@@ -95,7 +95,7 @@ nav a:hover, a:focus{
 }
 
 #historia article p {
-	line-height: 1.5;
+	line-height: 1.5; /*Bestämmer höjd*/
 }
 
 .hem{
@@ -108,7 +108,7 @@ nav a:hover, a:focus{
 	
 }
 
-video{
+video{ /*Ändrar videon egenskaperna*/
 	width: 720px;
 	height: 340px;
 	margin-left: auto;
@@ -127,10 +127,8 @@ footer{
 
 
 
-
-
 li a { 
-	display: block; 
+	display: block;
 	color: white; /* Färg på text */
 	padding: 14px 16px;
 	text-decoration: none; /* Tar bort understräck på länkar */
@@ -231,9 +229,6 @@ legend{ /*Gör att rubrikerna lägger sig i mitten*/
     text-align: center;
 }
 
-label{
-    font-size: 100%;
-}
 
 fieldset > fieldset > label{
     font-size: 1.2em;
@@ -269,7 +264,7 @@ table {
 }
 th, td {
 	border: 1px solid white; /*skapar en border runt tabell datan och tabell header*/
-    text-align: left;
+
     padding: 8px;
 }
 
