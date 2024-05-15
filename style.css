@@ -127,8 +127,8 @@ footer{
 
 
 
-li a { 
-	display: block;
+li > a { 
+	display: block; /*Tar den bredd den kan ta, gör så alla a elementen för samma längd och tar upp hela naven */
 	color: white; /* Färg på text */
 	padding: 14px 16px;
 	text-decoration: none; /* Tar bort understräck på länkar */
@@ -150,18 +150,18 @@ li a {
 	place-content: center;
 }
 
-table {
-	height: 700px;
-}
 
-table img{
-	height: 140px;
-	border-radius: 40px;
-}
 
 td{
-	height: 140px;
-	width: auto;
+	height: 50px;
+	text-align: center;
+	border-top: rgb(148, 144, 144) solid 1px;;
+	border-collapse: collapse;
+	width: 100px;
+}
+
+table{
+	border-collapse: collapse;
 }
 
 .Band{
@@ -224,7 +224,7 @@ fieldset > fieldset > legend{
     text-align: left; /*Gör att texten går åt vänster*/
 }
 
-legend{ /*Gör att rubrikerna lägger sig i mitten*/
+legend{ /*Rubriken i min fieldset*/
     font-size: 100%;
     text-align: center;
 }
@@ -255,18 +255,7 @@ form{
 	
 }
 
-table {
-    border-collapse: collapse;/*Gör så att det inte finns några mellanrum mellan bordersna*/
-    width: 80vw;
-    margin: 0 auto;
-    border: black solid; 
-	padding-bottom: 50px;
-}
-th, td {
-	border: 1px solid white; /*skapar en border runt tabell datan och tabell header*/
 
-    padding: 8px;
-}
 
 .Historia > section:last-child{
 	background-color: white;
