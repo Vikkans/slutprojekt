@@ -137,13 +137,7 @@ li > a {
   
 }
 
-.Musik{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	width: auto;
-	height: auto;
-	
-}
+
 
 #låtar main {
 	display: grid;
@@ -164,7 +158,7 @@ table{
 	border-collapse: collapse;
 }
 
-.Band{
+.band{
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	display: grid;
 	text-align: center;
@@ -173,22 +167,22 @@ table{
 	font-weight: bold;
 }
 
-.Band > p{
+.band > p{
 	font-size: 15em; /*storlek på min text*/
 	margin-top: 0;
 	
 }
 
-.Band h2{
+.band h2{
 	margin-bottom: 0;
 	
 }
 
-.Band section{
+.band section{
 	padding-top: 50px;
 }
 
-.Historia{
+.historia{
 	grid-template-columns: 1fr 1fr;
 	display: grid;
 	grid-gap: 20px;
@@ -197,7 +191,7 @@ table{
 
 
 
-.Historia > section{
+.historia > section{
 	background-color: grey;
     border-radius: 20px;
 	width: 500px;
@@ -257,7 +251,7 @@ form{
 
 
 
-.Historia > section:last-child{
+.historia > section:last-child{
 	background-color: white;
 }
 
